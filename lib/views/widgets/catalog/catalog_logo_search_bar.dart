@@ -110,7 +110,7 @@ class _LogoAndSearchBarState extends State<LogoAndSearchBar> {
             ),
             IconButton(
               tooltip: "Settings",
-              onPressed: () => Get.to(() => const AniLoopSettingsView(), transition: Transition.cupertino),
+              onPressed: () => Get.to(() => AniLoopSettingsView(), transition: Transition.cupertino),
               icon: const Icon(Icons.tune_rounded),
             ),
             GestureDetector(
