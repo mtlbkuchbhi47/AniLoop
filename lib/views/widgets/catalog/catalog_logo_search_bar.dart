@@ -5,6 +5,7 @@ import 'package:aniloop/themes/themes.dart';
 import 'package:aniloop/views/widgets/search/search.dart';
 import 'package:aniloop/controllers/theme_controller.dart';
 import 'package:aniloop/controllers/catalog_controller.dart';
+import 'package:aniloop/views/aniloop_settings_view.dart';
 
 class LogoAndSearchBar extends StatefulWidget {
   const LogoAndSearchBar({super.key});

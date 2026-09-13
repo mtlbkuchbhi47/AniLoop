@@ -1,7 +1,6 @@
 import 'package:aniloop/controllers/runtime_data_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:aniloop/themes/themes.dart';
-import 'package:icons_plus/icons_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class PackagesLicenses extends StatelessWidget {
@@ -70,7 +69,7 @@ class PackagesLicenses extends StatelessWidget {
                 },
                 // ignore: prefer_const_constructors
                 child: Icon(
-                  Bootstrap.github,
+                  Icons.code_rounded,
                   size: 45,
                   color: !RuntimeController.isDarkMode
                       ? Themes.dark.primaryColor
@@ -308,10 +307,6 @@ class PackagesLicenses extends StatelessWidget {
                       InkWell(
                         onTapUp: (details) {
                           launchUrl(Uri.parse(
-                              "https://raw.githubusercontent.com/chouhan-rahul/icons_plus/main/LICENSE"));
-                        },
-                        child: const Text(
-                          "icons_plus,",
                           style: TextStyle(
                             color: Color.fromARGB(255, 0, 140, 255),
                             decoration: TextDecoration.underline,
