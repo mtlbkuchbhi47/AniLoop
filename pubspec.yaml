@@ -45,14 +45,6 @@ dependencies:
   hive: ^2.2.3
   path_provider: ^2.1.4
   http: ^1.2.2
-  lecle_yoyo_player:
-    git:
-      url: https://github.com/seph1709/yoyo-player-aniplay.git
-      ref: main # branch name
-  video_player:
-    git:
-      url: https://github.com/seph1709/native-vidplayer-aniplay.git
-      ref: main # branch name
   media_kit: ^1.2.6
   media_kit_video: ^2.0.1
   media_kit_libs_video: ^1.0.7
