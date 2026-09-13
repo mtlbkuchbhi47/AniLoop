@@ -12,6 +12,6 @@ class Binding extends Bindings {
     Get.put(RuntimeController());
     Get.put(ThemeController());
     Get.put(AniLoopSettingsController());
-    Get.put(WebController());
+    Get.lazyPut(() => WebController());
   }
 }
