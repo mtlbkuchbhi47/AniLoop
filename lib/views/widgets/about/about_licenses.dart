@@ -305,21 +305,6 @@ class PackagesLicenses extends StatelessWidget {
                           textAlign: TextAlign.center,
                         ),
                       ),
-                      InkWell(
-                        onTapUp: (details) {
-                          launchUrl(Uri.parse(
-                        },
-                        child: const Text(
-                          style: TextStyle(
-                            color: Color.fromARGB(255, 0, 140, 255),
-                            decoration: TextDecoration.underline,
-                            decorationColor: Color.fromARGB(255, 0, 140, 255),
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ),
                     ],
                   ),
                 ],
