@@ -13,7 +13,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
-    await InAppWebViewController.setWebContentsDebuggingEnabled(kDebugMode);
   }
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
