@@ -1,4 +1,4 @@
-package com.solocoder.aniplay
+package com.aniloop.app
 
 import io.flutter.embedding.android.FlutterActivity
 
